@@ -399,7 +399,7 @@ void stub_debug_control(void) {
  * count, floor misses, and an unknown wall counter) is also printed.
  */
 void try_print_debug_mario_object_info(void) {
-    if (gMarioObject != NULL) {
+    /*if (gMarioObject != NULL) {
         switch (sDebugPage) {
             case DEBUG_PAGE_CHECKSURFACEINFO:
                 print_surfaceinfo();
@@ -423,7 +423,8 @@ void try_print_debug_mario_object_info(void) {
 
     if (gUnknownWallCount != 0) {
         print_debug_bottom_up("WALL   %d", gUnknownWallCount);
-    }
+    }*/
+    print_text (50, 50, "FUCK");
 }
 
 /*
