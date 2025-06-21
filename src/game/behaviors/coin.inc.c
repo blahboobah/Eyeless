@@ -280,7 +280,7 @@ void coin_inside_boo_act_dropped(void) {
     bhv_coin_sparkles_init();
 
     if (cur_obj_has_model(MODEL_BLUE_COIN)) {
-        o->oDamageOrCoinValue = 5;
+        o->oDamageOrCoinValue = 10;
     }
 
     if (cur_obj_wait_then_blink(400, 20)) {
