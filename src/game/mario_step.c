@@ -348,7 +348,7 @@ s32 perform_ground_step(struct MarioState *m) {
     s32 i;
     u32 stepResult;
     Vec3f intendedPos;
-    const f32 numSteps = 4.0f;
+    const f32 numSteps = 2.0f;
 
     set_mario_wall(m, NULL);
 
