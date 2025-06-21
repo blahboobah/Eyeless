@@ -17,7 +17,7 @@
 /**
  * Moving Coins flicker and disappear when they hit lava instead of being instantly deleted.
  */
-// #define COIN_LAVA_FLICKER
+#define COIN_LAVA_FLICKER
 
 /**
  * Allows for retries on collecting the remaining blue coins from a blue coin switch.
@@ -27,7 +27,7 @@
 /**
  * Allow previewing blue coin locations from a blue coin switch when Mario is standing on the blue coin switch.
  */
-// #define BLUE_COIN_SWITCH_PREVIEW
+#define BLUE_COIN_SWITCH_PREVIEW
 
 /****************
  * -- GOOMBA --
@@ -101,7 +101,7 @@
 /**
  * Allows the speed of a platform on a track to be controlled by standing near the front or back of it.
  */
-// #define CONTROLLABLE_PLATFORM_SPEED
+#define CONTROLLABLE_PLATFORM_SPEED
 
 /*********************
  * -- CHAIN CHOMP --
@@ -110,7 +110,7 @@
 /**
  * The number of chain balls the Chain Chomp has. Vanilla is 5.
  */
-#define CHAIN_CHOMP_NUM_SEGMENTS 5
+#define CHAIN_CHOMP_NUM_SEGMENTS 15
 
 /***************
  * -- POKEY --

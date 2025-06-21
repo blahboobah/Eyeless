@@ -28,7 +28,7 @@
 /**
  * Air/breath meter is separate from health meter when underwater.
  */
-// #define BREATH_METER
+#define BREATH_METER
 
 /**
  * Number of coins to spawn the "100 coin" star. If you remove the define altogether, then there won't be a 100 coin star at all.
@@ -43,7 +43,7 @@
 /**
  * Bowser keys always exit the level. Only has an effect if NON_STOP_STARS is enabled.
  */
-// #define KEYS_EXIT_LEVEL
+#define KEYS_EXIT_LEVEL
 
 /**
  * Uncomment this if you want global star IDs (useful for creating an open world hack ala MVC).
@@ -68,7 +68,7 @@
 /**
  * Shows an "A" when Mario is able to talk [requires EASIER_DIALOG_TRIGGER].
  */
-// #define DIALOG_INDICATOR
+#define DIALOG_INDICATOR
 
 /**
  * Include the English characters that were missing from US segment2 and the rumble pak texture if using rumble.
@@ -76,7 +76,7 @@
  * [MAKE SURE TO INCLUDE EU AND JP/SH BASEROMS IN THE REPO TO OBTAIN THE ASSETS]
  * If this is disabled, backup assets will be used.
  */
-// #define COMPLETE_EN_US_SEGMENT2
+#define COMPLETE_EN_US_SEGMENT2
 
 /**
  * Removes multi-language cake screen.
